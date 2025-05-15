@@ -16,19 +16,17 @@ This project implements a machine learning-based system for early detection and 
 - **Comprehensive Evaluation**: Performance metrics including accuracy, ROC AUC, F1 score, and confusion matrices
 - **PDF Report Generation**: Creates downloadable clinical reports with prediction results
 
-## Demo
-
-![Demo Screenshot](1.png)
-
 ## Installation
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/yourusername/ckd-prediction-system.git
 cd ckd-prediction-system
 ```
 
 2. Install dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -51,6 +49,7 @@ python ckd_model_training.py
 ```
 
 This will:
+
 - Load and preprocess the kidney disease dataset
 - Train the model with optimal hyperparameters
 - Save the trained model to `ckd_model.joblib`
@@ -65,17 +64,20 @@ streamlit run ckd_prediction_app.py
 ```
 
 The application provides two input methods:
+
 1. **Manual Input**: Enter patient details and test values directly
 2. **Image Upload**: Upload medical reports for automatic data extraction
 
 ## Model Performance
 
 The system implements multiple models with different sampling techniques:
+
 - Original dataset
 - SMOTE (Synthetic Minority Over-sampling Technique)
 - Random Under-sampling
 
 Performance metrics for the best model:
+
 - Accuracy: 97.5%
 - ROC AUC: 0.989
 - F1 Score: 0.976
@@ -85,6 +87,7 @@ Performance metrics for the best model:
 ## Dataset
 
 The model is trained on the Chronic Kidney Disease dataset containing 400 patient records with 24 features including:
+
 - Blood tests (hemoglobin, white blood cell count, etc.)
 - Urine tests (specific gravity, albumin, etc.)
 - Patient history (diabetes, hypertension, etc.)
