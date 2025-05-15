@@ -1,0 +1,12 @@
+streamlit
+pandas
+numpy
+plotly
+pdfkit
+jinja2 
+pytesseract
+pillow
+regex
+matplotlib
+reportlab
+

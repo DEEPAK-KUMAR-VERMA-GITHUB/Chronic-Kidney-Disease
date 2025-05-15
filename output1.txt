@@ -1,0 +1,251 @@
+NPTEL >
+
+Click to register
+for Certification
+
+Thank you for taking the Week
+03: Assignment 03.
+
+exam
+
+Halready
+
+registered,
+
+basen) \VVeek 03: Assignment 03
+
+your payment
+
+status Your last recorded submission was on 2025-02-12, Due date: 2025-02-12, 23:59 IST.
+10:57 IST
+1) 1 point
+course In the statement ‘if X is A then Y is B’, what are ‘X is A’ and ‘Y is B’ called respectively ?
+outline
+(a) consequence and consequence
+About (b) antecedent and consequence
+CAEL (c) antecedent and antecedent
+a (@) consequence and antecedent
+an NPTEL
+online
+course
+work?
+Week 0
+Week 1 2) Zadeh’s max-min rule is defined as. 1 point
+mA (a) fnm(a,b) = (1-a) Vb
+(b) fmm(a,b) =1A(1—a +b)
+Week 3 (c) fmm(a,b) = (1—a) A(aVb)
+Lecture 11 (@) fmm (a,b) = (1a) V (a Ab)
+Fuzzy rules
+Generalised
+Modus
+Ponens
+Generalised
+Modus @a
+Tollens
+Lecture 12 3) a . , ape
+RS What are the application of Fuzzy inference systems ?
+ecnge (a) Wireless services, heat control and printers
+system (b) Restrict power usage, telephone lines and sort data
+Iw (c) Automatic control, decision analysis and data classification
+Fuzzy (a) Simulink, boiler and CD recording
+inference
+system
+Mamdanis,
+‘Sugeno's and
+Teukamoto
+type
+inferences
+Lecture 14 4) 1 point
+an Given that X = {a,b,c,d}, Y = {1,2,3,4},
+systems with A= {(a,0.0), (b, 0.8), (¢,0.6), (d,1.0)}, and B = {(1,0.2), (2, 1.0), (3, 0.8), (4,0.0)}
+a then the implication relation : if x is A then y is B
+is,
+Lecture 15
+Numerical toiaid
+‘examples (a) R= [02 08 08 02
+= |02 06 06 04
+eons meek 02 10 08 0
+Assignment
+03 111 it
+Feedback _ [02 08 08 0.2
+Fom ©) R= J04 06 06 0.4
+02 10 08 0
+Week 4
+toiaid
+_ {02 08 08 0.2
+R= 106 06 06 04
+02 08 10 0
+toiaid
+02 08 08 0.2
+R= 14 06 06 04
+02 08 10 0
+
+5) 1 point
+For the data given in question no. 4 and C = {(1,0),(2,0.4), (3, 1.0), (4,0.8)},
+the implication relation : if x is A then y is B else y is C
+
+is,
+
+0 04 10 08
+0.2 08 08 0.2
+0.2 06 06 04
+02 10 08 0
+
+(a) R=
+
+0 08 1.0 04
+02 08 08 0.2
+06 0.2 04 06
+02 10 08 0
+
+(b) R=
+
+0 04 10 08
+0.2 0.2 08 08
+02 06 04 0.6
+02 10 08 0
+
+0 04 10 08
+R- 0.2 08 0.2 08
+
+() R=
+
+02 06 10 04
+02 10 08 0
+
+(a)
+©
+
+6) 1 point
+If we interpret A entails B as follows :
+
+(i) R:A>B=AUB
+
+(i) R: A> B=(ANB)UB
+
+(iii) R: A> B= AU(ANB)
+
+then which of the following options is/are correct ?
+
+s propositional calculus and (ii) is material implication
+propositional calculus and (i) is material implication
+(c) (ii) is extended propositional calculus
+
+(a) (i) is propositional calculus
+
+Oa
+@b.
+Gc.
+Oa
+
+7) The algebraic product T-norm operator T,,(a,) is 1 point
+(a) a4+6
+(b) a+b—ab
+
+(c) aAb
+(a) ab
+
+©
+@a
+
+®) The intermediate variable in the chain rule of fuzzy inference 1P0int
+
+(a) must be crisp
+(b) is ignored during defuzzification
+(c) serves as a bridge between two fuzzy rules
+
+(d) represents the final conclusion
+
+9) 1 point
+TEX = {a1, 22,23}, Y = {y1,y2}, A = {(21,0.4), (x2, 1), (ws, 0.6)}, B = {(y1, 1), (y2, 0.5)} and given a
+fact that B’ = {(y:,0.9), (y2, 0.6)}-
+
+Using the generalized modus tollens, what will be the conclusion ?
+
+{(e1, 0.6), (x2, 0.9), (3,0.7)}
+
+(b) Conclusion is y is B’ where B’ = {(yi, 0.9), (y2,0.6)}
+
+(c) Conclusion is x is A’ where A’ = {21,0.4), (1r2, 0.9), (x3, 0.6)}
+
+(a) Conclusion is x is A’ where A’ = {1,0.6), (x2, 0.9), (73, 0.6)}
+
+(a) Conclusion is x is A’ where AT
+
+10) In a fuzzy inference system, what does a rule base contain ? 1 point
+
+(a) Logic operations and outputs
+
+(b) Fuzzy rules defined as ‘if-then’ statements
+(c) Mathematical equations
+
+(a) Crisp data mapping
+
+11) Determine the antecedent(s) in the given fuzzy rule 1 point
+
+If service is excellent or food is delicious then tip is generous.
+(a) Service is excellent and tip is generous
+(b) Service is excellent
+(c) Food is delicious
+(a) Food is delicious and tip is generous
+
+Oa
+@b.
+Gc.
+Oa
+
+12) 1 point
+In the generalized modus ponens, if the degree of overlap between A and A’ is zero then
+(a) There is no inference made
+(b) B! is maximized
+(c) BY is minimized
+(a) The system defaults to a crisp output
+
+@a
+
+13) The Drastic product operator is given by 1 point
+a ifb=1
+(a) fap(a,b) = 4b ifa=1
+1 otherwise
+
+a if
+(b) fap(a,b)= 4b ifa=1
+
+2 otherwise
+
+a ifb=1
+(c) fap(a.6)= 4b ifa=1
+
+o
+
+0 otherwise
+
+a ifb=1
+bl otherwise
+
+(4) fap(a,b)
+
+14) 1 point
+Difference between generalized modus ponens(GMP) and modus ponens is
+(a) GMP applies to crisp premises only
+(b) GMP does not allow partial truth
+(c) There is no difference between the two
+(a) GMP accommodates fuzzy premises and rule
+
+©
+@a
+
+15) 1 point
+In Mamdani fuzzy inference, what type of membership functions are used for outputs ?
+(a) Discrete
+
+(b) Crisp values
+
+(c) Binary
+
+(a) Fuzzy sets
+
+@a
+
+‘You may submit any number of times before the due date. The final submission will be
+considered for grading,

@@ -1,0 +1,341 @@
+Class distribution: Counter({0: 248, 2: 150, 1: 2})
+
+Training with Original sampling...
+
+Training Decision Tree...
+Fitting 2 folds for each of 180 candidates, totalling 360 fits
+Decision Tree Best Parameters: {'class_weight': None, 'criterion': 'entropy', 'max_depth': 3, 'min_samples_leaf': 1, 'min_samples_split': 5}
+Decision Tree Best CV Score: 0.968861882100054
+Decision Tree Test F1 Score: 0.9620592743995913
+
+Training Random Forest...
+Fitting 2 folds for each of 648 candidates, totalling 1296 fits
+Random Forest Best Parameters: {'class_weight': 'balanced_subsample', 'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 300}
+Random Forest Best CV Score: 0.9875259715066931
+Random Forest Test F1 Score: 0.987455948984729
+
+Training XGBoost...
+Fitting 2 folds for each of 2187 candidates, totalling 4374 fits
+XGBoost Best Parameters: {'colsample_bytree': 0.8, 'gamma': 0.2, 'learning_rate': 0.3, 'max_depth': 3, 'min_child_weight': 1, 'n_estimators': 200, 'subsample': 0.8}
+XGBoost Best CV Score: 0.9750557362542938
+XGBoost Test F1 Score: 0.987455948984729
+
+Training SVM...
+Fitting 2 folds for each of 64 candidates, totalling 128 fits
+SVM Best Parameters: {'C': 1, 'class_weight': None, 'gamma': 'auto', 'kernel': 'rbf'}
+SVM Best CV Score: 0.9781798701839062
+SVM Test F1 Score: 0.9875393277032621
+
+Training KNN...
+Fitting 2 folds for each of 4 candidates, totalling 8 fits
+KNN Best Parameters: {'metric': 'euclidean', 'n_neighbors': 3, 'weights': 'uniform'}
+KNN Best CV Score: 0.9473398912915041
+KNN Test F1 Score: 0.9505208333333334
+
+Training Gradient Boosting...
+Fitting 2 folds for each of 243 candidates, totalling 486 fits
+Gradient Boosting Best Parameters: {'learning_rate': 0.3, 'max_depth': 3, 'min_samples_split': 10, 'n_estimators': 100, 'subsample': 0.8}
+Gradient Boosting Best CV Score: 0.9719486630017862
+Gradient Boosting Test F1 Score: 0.9811440677966102
+
+Training with SMOTE sampling...
+
+Training Decision Tree...
+Fitting 5 folds for each of 180 candidates, totalling 900 fits
+Decision Tree Best Parameters: {'class_weight': None, 'criterion': 'gini', 'max_depth': 7, 'min_samples_leaf': 1, 'min_samples_split': 5}
+Decision Tree Best CV Score: 0.986612581574563
+Decision Tree Test F1 Score: 0.9620592743995913
+
+Training Random Forest...
+Fitting 5 folds for each of 648 candidates, totalling 3240 fits
+Random Forest Best Parameters: {'class_weight': 'balanced', 'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}
+Random Forest Best CV Score: 0.9932745807874805
+Random Forest Test F1 Score: 0.9748140635564571
+
+Training XGBoost...
+Fitting 5 folds for each of 2187 candidates, totalling 10935 fits
+XGBoost Best Parameters: {'colsample_bytree': 0.8, 'gamma': 0, 'learning_rate': 0.01, 'max_depth': 7, 'min_child_weight': 1, 'n_estimators': 100, 'subsample': 1.0}
+XGBoost Best CV Score: 0.9882325639807579
+XGBoost Test F1 Score: 0.9748140635564571
+
+Training SVM...
+Fitting 5 folds for each of 64 candidates, totalling 320 fits
+SVM Best Parameters: {'C': 100, 'class_weight': 'balanced', 'gamma': 0.1, 'kernel': 'rbf'}
+SVM Best CV Score: 0.9949571816110836
+SVM Test F1 Score: 0.975
+
+Training KNN...
+Fitting 5 folds for each of 4 candidates, totalling 20 fits
+KNN Best Parameters: {'metric': 'manhattan', 'n_neighbors': 3, 'weights': 'uniform'}
+KNN Best CV Score: 0.9552527039807378
+KNN Test F1 Score: 0.9312602291325696
+
+Training Gradient Boosting...
+Fitting 5 folds for each of 243 candidates, totalling 1215 fits
+Gradient Boosting Best Parameters: {'learning_rate': 0.1, 'max_depth': 5, 'min_samples_split': 5, 'n_estimators': 200, 'subsample': 0.9}
+Gradient Boosting Best CV Score: 0.9915933695824599
+Gradient Boosting Test F1 Score: 0.987455948984729
+
+Training with Random Under sampling...
+
+Training Decision Tree...
+Fitting 2 folds for each of 180 candidates, totalling 360 fits
+Decision Tree Best Parameters: {'class_weight': 'balanced', 'criterion': 'gini', 'max_depth': 3, 'min_samples_leaf': 1, 'min_samples_split': 2}
+Decision Tree Best CV Score: 0.5555555555555555
+Decision Tree Test F1 Score: 0.6369936034115138
+
+Training Random Forest...
+Fitting 2 folds for each of 648 candidates, totalling 1296 fits
+Random Forest Best Parameters: {'class_weight': 'balanced', 'max_depth': 3, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}
+Random Forest Best CV Score: 0.36111111111111105
+Random Forest Test F1 Score: 0.6891332752613241
+
+Training XGBoost...
+Fitting 2 folds for each of 2187 candidates, totalling 4374 fits
+XGBoost Best Parameters: {'colsample_bytree': 0.8, 'gamma': 0, 'learning_rate': 0.01, 'max_depth': 3, 'min_child_weight': 1, 'n_estimators': 100, 'subsample': 0.8}
+Fitting 2 folds for each of 180 candidates, totalling 360 fits
+Decision Tree Best Parameters: {'class_weight': 'balanced', 'criterion': 'gini', 'max_depth': 3, 'min_samples_leaf': 1, 'min_samples_split': 2}
+Decision Tree Best CV Score: 0.5555555555555555
+Decision Tree Test F1 Score: 0.6369936034115138
+
+Training Random Forest...
+Fitting 2 folds for each of 648 candidates, totalling 1296 fits
+Random Forest Best Parameters: {'class_weight': 'balanced', 'max_depth': 3, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}
+Random Forest Best CV Score: 0.36111111111111105
+Random Forest Test F1 Score: 0.6891332752613241
+
+Training XGBoost...
+Fitting 2 folds for each of 2187 candidates, totalling 4374 fits
+XGBoost Best Parameters: {'colsample_bytree': 0.8, 'gamma': 0, 'learning_rate': 0.01, 'max_depth': 3, 'min_child_weight': 1, 'n_estimators': 100, 'subsample': 0.8}
+Decision Tree Test F1 Score: 0.6369936034115138
+
+Training Random Forest...
+Fitting 2 folds for each of 648 candidates, totalling 1296 fits
+Random Forest Best Parameters: {'class_weight': 'balanced', 'max_depth': 3, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}
+Random Forest Best CV Score: 0.36111111111111105
+Random Forest Test F1 Score: 0.6891332752613241
+
+Training XGBoost...
+Fitting 2 folds for each of 2187 candidates, totalling 4374 fits
+XGBoost Best Parameters: {'colsample_bytree': 0.8, 'gamma': 0, 'learning_rate': 0.01, 'max_depth': 3, 'min_child_weight': 1, 'n_estimators': 100, 'subsample': 0.8}
+Random Forest Best Parameters: {'class_weight': 'balanced', 'max_depth': 3, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}
+Random Forest Best CV Score: 0.36111111111111105
+Random Forest Test F1 Score: 0.6891332752613241
+
+Training XGBoost...
+Fitting 2 folds for each of 2187 candidates, totalling 4374 fits
+XGBoost Best Parameters: {'colsample_bytree': 0.8, 'gamma': 0, 'learning_rate': 0.01, 'max_depth': 3, 'min_child_weight': 1, 'n_estimators': 100, 'subsample': 0.8}
+Training XGBoost...
+Fitting 2 folds for each of 2187 candidates, totalling 4374 fits
+XGBoost Best Parameters: {'colsample_bytree': 0.8, 'gamma': 0, 'learning_rate': 0.01, 'max_depth': 3, 'min_child_weight': 1, 'n_estimators': 100, 'subsample': 0.8}
+Fitting 2 folds for each of 2187 candidates, totalling 4374 fits
+XGBoost Best Parameters: {'colsample_bytree': 0.8, 'gamma': 0, 'learning_rate': 0.01, 'max_depth': 3, 'min_child_weight': 1, 'n_estimators': 100, 'subsample': 0.8}
+XGBoost Best Parameters: {'colsample_bytree': 0.8, 'gamma': 0, 'learning_rate': 0.01, 'max_depth': 3, 'min_child_weight': 1, 'n_estimators': 100, 'subsample': 0.8}
+XGBoost Best CV Score: 0.16666666666666666
+ors': 100, 'subsample': 0.8}
+XGBoost Best CV Score: 0.16666666666666666
+XGBoost Best CV Score: 0.16666666666666666
+XGBoost Test F1 Score: 0.9320392722032066
+
+Training SVM...
+Fitting 2 folds for each of 64 candidates, totalling 128 fits
+SVM Best Parameters: {'C': 0.1, 'class_weight': 'balanced', 'gamma': 'scale', 'kernel': 'rbf'}
+SVM Best CV Score: 0.36111111111111105
+Training SVM...
+Fitting 2 folds for each of 64 candidates, totalling 128 fits
+SVM Best Parameters: {'C': 0.1, 'class_weight': 'balanced', 'gamma': 'scale', 'kernel': 'rbf'}
+SVM Best CV Score: 0.36111111111111105
+Fitting 2 folds for each of 64 candidates, totalling 128 fits
+SVM Best Parameters: {'C': 0.1, 'class_weight': 'balanced', 'gamma': 'scale', 'kernel': 'rbf'}
+SVM Best CV Score: 0.36111111111111105
+SVM Best CV Score: 0.36111111111111105
+SVM Test F1 Score: 0.6301843317972351
+
+Training KNN...
+Fitting 2 folds for each of 4 candidates, totalling 8 fits
+KNN Best Parameters: {'metric': 'euclidean', 'n_neighbors': 3, 'weights': 'distance'}
+KNN Best CV Score: 0.36111111111111105
+KNN Test F1 Score: 0.7795731707317073
+
+Training Gradient Boosting...
+Fitting 2 folds for each of 243 candidates, totalling 486 fits
+Gradient Boosting Best Parameters: {'learning_rate': 0.01, 'max_depth': 3, 'min_samples_split': 2, 'n_estimators': 100, 'subsample': 0.8}
+Gradient Boosting Best CV Score: 0.36111111111111105
+Gradient Boosting Test F1 Score: 0.7095890410958904
+
+Best Overall Model:
+Sampling Method: Original
+Model: SVM
+F1 Score: 0.9875393277032621
+
+Model saved as 'best_ckd_model.joblib'Class distribution: Counter({0: 248, 2: 150, 1: 2})
+
+Training with Original sampling...
+
+Training Decision Tree...
+Fitting 2 folds for each of 180 candidates, totalling 360 fits
+Decision Tree Best Parameters: {'class_weight': None, 'criterion': 'entropy', 'max_depth': 3, 'min_samples_leaf': 1, 'min_samples_split': 5}
+Decision Tree Best CV Score: 0.968861882100054
+Decision Tree Test F1 Score: 0.9620592743995913
+
+Training Random Forest...
+Fitting 2 folds for each of 648 candidates, totalling 1296 fits
+Random Forest Best Parameters: {'class_weight': 'balanced_subsample', 'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 300}
+Random Forest Best CV Score: 0.9875259715066931
+Random Forest Test F1 Score: 0.987455948984729
+
+Training XGBoost...
+Fitting 2 folds for each of 2187 candidates, totalling 4374 fits
+XGBoost Best Parameters: {'colsample_bytree': 0.8, 'gamma': 0.2, 'learning_rate': 0.3, 'max_depth': 3, 'min_child_weight': 1, 'n_estimators': 200, 'subsample': 0.8}
+XGBoost Best CV Score: 0.9750557362542938
+XGBoost Test F1 Score: 0.987455948984729
+
+Training SVM...
+Fitting 2 folds for each of 64 candidates, totalling 128 fits
+SVM Best Parameters: {'C': 1, 'class_weight': None, 'gamma': 'auto', 'kernel': 'rbf'}
+SVM Best CV Score: 0.9781798701839062
+SVM Test F1 Score: 0.9875393277032621
+
+Training KNN...
+Fitting 2 folds for each of 4 candidates, totalling 8 fits
+KNN Best Parameters: {'metric': 'euclidean', 'n_neighbors': 3, 'weights': 'uniform'}
+KNN Best CV Score: 0.9473398912915041
+KNN Test F1 Score: 0.9505208333333334
+
+Training Gradient Boosting...
+Fitting 2 folds for each of 243 candidates, totalling 486 fits
+Gradient Boosting Best Parameters: {'learning_rate': 0.3, 'max_depth': 3, 'min_samples_split': 10, 'n_estimators': 100, 'subsample': 0.8}
+Gradient Boosting Best CV Score: 0.9719486630017862
+Gradient Boosting Test F1 Score: 0.9811440677966102
+
+Training with SMOTE sampling...
+
+Training Decision Tree...
+Fitting 5 folds for each of 180 candidates, totalling 900 fits
+Decision Tree Best Parameters: {'class_weight': None, 'criterion': 'gini', 'max_depth': 7, 'min_samples_leaf': 1, 'min_samples_split': 5}
+Decision Tree Best CV Score: 0.986612581574563
+Decision Tree Test F1 Score: 0.9620592743995913
+
+Training Random Forest...
+Fitting 5 folds for each of 648 candidates, totalling 3240 fits
+Random Forest Best Parameters: {'class_weight': 'balanced', 'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}
+Random Forest Best CV Score: 0.9932745807874805
+Random Forest Test F1 Score: 0.9748140635564571
+
+Training XGBoost...
+Fitting 5 folds for each of 2187 candidates, totalling 10935 fits
+XGBoost Best Parameters: {'colsample_bytree': 0.8, 'gamma': 0, 'learning_rate': 0.01, 'max_depth': 7, 'min_child_weight': 1, 'n_estimators': 100, 'subsample': 1.0}
+XGBoost Best CV Score: 0.9882325639807579
+XGBoost Test F1 Score: 0.9748140635564571
+
+Training SVM...
+Fitting 5 folds for each of 64 candidates, totalling 320 fits
+SVM Best Parameters: {'C': 100, 'class_weight': 'balanced', 'gamma': 0.1, 'kernel': 'rbf'}
+SVM Best CV Score: 0.9949571816110836
+SVM Test F1 Score: 0.975
+
+Training KNN...
+Fitting 5 folds for each of 4 candidates, totalling 20 fits
+KNN Best Parameters: {'metric': 'manhattan', 'n_neighbors': 3, 'weights': 'uniform'}
+KNN Best CV Score: 0.9552527039807378
+KNN Test F1 Score: 0.9312602291325696
+
+Training Gradient Boosting...
+Fitting 5 folds for each of 243 candidates, totalling 1215 fits
+Gradient Boosting Best Parameters: {'learning_rate': 0.1, 'max_depth': 5, 'min_samples_split': 5, 'n_estimators': 200, 'subsample': 0.9}
+Gradient Boosting Best CV Score: 0.9915933695824599
+Gradient Boosting Test F1 Score: 0.987455948984729
+
+Training with Random Under sampling...
+
+Training Decision Tree...
+Fitting 2 folds for each of 180 candidates, totalling 360 fits
+Decision Tree Best Parameters: {'class_weight': 'balanced', 'criterion': 'gini', 'max_depth': 3, 'min_samples_leaf': 1, 'min_samples_split': 2}
+Decision Tree Best CV Score: 0.5555555555555555
+Decision Tree Test F1 Score: 0.6369936034115138
+
+Training Random Forest...
+Fitting 2 folds for each of 648 candidates, totalling 1296 fits
+Random Forest Best Parameters: {'class_weight': 'balanced', 'max_depth': 3, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}
+Random Forest Best CV Score: 0.36111111111111105
+Random Forest Test F1 Score: 0.6891332752613241
+
+Training XGBoost...
+Fitting 2 folds for each of 2187 candidates, totalling 4374 fits
+XGBoost Best Parameters: {'colsample_bytree': 0.8, 'gamma': 0, 'learning_rate': 0.01, 'max_depth': 3, 'min_child_weight': 1, 'n_estimators': 100, 'subsample': 0.8}
+Fitting 2 folds for each of 180 candidates, totalling 360 fits
+Decision Tree Best Parameters: {'class_weight': 'balanced', 'criterion': 'gini', 'max_depth': 3, 'min_samples_leaf': 1, 'min_samples_split': 2}
+Decision Tree Best CV Score: 0.5555555555555555
+Decision Tree Test F1 Score: 0.6369936034115138
+
+Training Random Forest...
+Fitting 2 folds for each of 648 candidates, totalling 1296 fits
+Random Forest Best Parameters: {'class_weight': 'balanced', 'max_depth': 3, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}
+Random Forest Best CV Score: 0.36111111111111105
+Random Forest Test F1 Score: 0.6891332752613241
+
+Training XGBoost...
+Fitting 2 folds for each of 2187 candidates, totalling 4374 fits
+XGBoost Best Parameters: {'colsample_bytree': 0.8, 'gamma': 0, 'learning_rate': 0.01, 'max_depth': 3, 'min_child_weight': 1, 'n_estimators': 100, 'subsample': 0.8}
+Decision Tree Test F1 Score: 0.6369936034115138
+
+Training Random Forest...
+Fitting 2 folds for each of 648 candidates, totalling 1296 fits
+Random Forest Best Parameters: {'class_weight': 'balanced', 'max_depth': 3, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}
+Random Forest Best CV Score: 0.36111111111111105
+Random Forest Test F1 Score: 0.6891332752613241
+
+Training XGBoost...
+Fitting 2 folds for each of 2187 candidates, totalling 4374 fits
+XGBoost Best Parameters: {'colsample_bytree': 0.8, 'gamma': 0, 'learning_rate': 0.01, 'max_depth': 3, 'min_child_weight': 1, 'n_estimators': 100, 'subsample': 0.8}
+Random Forest Best Parameters: {'class_weight': 'balanced', 'max_depth': 3, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}
+Random Forest Best CV Score: 0.36111111111111105
+Random Forest Test F1 Score: 0.6891332752613241
+
+Training XGBoost...
+Fitting 2 folds for each of 2187 candidates, totalling 4374 fits
+XGBoost Best Parameters: {'colsample_bytree': 0.8, 'gamma': 0, 'learning_rate': 0.01, 'max_depth': 3, 'min_child_weight': 1, 'n_estimators': 100, 'subsample': 0.8}
+Training XGBoost...
+Fitting 2 folds for each of 2187 candidates, totalling 4374 fits
+XGBoost Best Parameters: {'colsample_bytree': 0.8, 'gamma': 0, 'learning_rate': 0.01, 'max_depth': 3, 'min_child_weight': 1, 'n_estimators': 100, 'subsample': 0.8}
+Fitting 2 folds for each of 2187 candidates, totalling 4374 fits
+XGBoost Best Parameters: {'colsample_bytree': 0.8, 'gamma': 0, 'learning_rate': 0.01, 'max_depth': 3, 'min_child_weight': 1, 'n_estimators': 100, 'subsample': 0.8}
+XGBoost Best Parameters: {'colsample_bytree': 0.8, 'gamma': 0, 'learning_rate': 0.01, 'max_depth': 3, 'min_child_weight': 1, 'n_estimators': 100, 'subsample': 0.8}
+XGBoost Best CV Score: 0.16666666666666666
+ors': 100, 'subsample': 0.8}
+XGBoost Best CV Score: 0.16666666666666666
+XGBoost Best CV Score: 0.16666666666666666
+XGBoost Test F1 Score: 0.9320392722032066
+
+Training SVM...
+Fitting 2 folds for each of 64 candidates, totalling 128 fits
+SVM Best Parameters: {'C': 0.1, 'class_weight': 'balanced', 'gamma': 'scale', 'kernel': 'rbf'}
+SVM Best CV Score: 0.36111111111111105
+Training SVM...
+Fitting 2 folds for each of 64 candidates, totalling 128 fits
+SVM Best Parameters: {'C': 0.1, 'class_weight': 'balanced', 'gamma': 'scale', 'kernel': 'rbf'}
+SVM Best CV Score: 0.36111111111111105
+Fitting 2 folds for each of 64 candidates, totalling 128 fits
+SVM Best Parameters: {'C': 0.1, 'class_weight': 'balanced', 'gamma': 'scale', 'kernel': 'rbf'}
+SVM Best CV Score: 0.36111111111111105
+SVM Best CV Score: 0.36111111111111105
+SVM Test F1 Score: 0.6301843317972351
+
+Training KNN...
+Fitting 2 folds for each of 4 candidates, totalling 8 fits
+KNN Best Parameters: {'metric': 'euclidean', 'n_neighbors': 3, 'weights': 'distance'}
+KNN Best CV Score: 0.36111111111111105
+KNN Test F1 Score: 0.7795731707317073
+
+Training Gradient Boosting...
+Fitting 2 folds for each of 243 candidates, totalling 486 fits
+Gradient Boosting Best Parameters: {'learning_rate': 0.01, 'max_depth': 3, 'min_samples_split': 2, 'n_estimators': 100, 'subsample': 0.8}
+Gradient Boosting Best CV Score: 0.36111111111111105
+Gradient Boosting Test F1 Score: 0.7095890410958904
+
+Best Overall Model:
+Sampling Method: Original
+Model: SVM
+F1 Score: 0.9875393277032621
+
+Model saved as 'best_ckd_model.joblib'
