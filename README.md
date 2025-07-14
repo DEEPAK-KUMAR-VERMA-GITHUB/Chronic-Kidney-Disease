@@ -1,7 +1,3 @@
-Absolutely! Here's the **entire README.md content** written in plain Markdown format, ready to copy and paste directly into your GitHub repository:
-
----
-
 # 🩺 CKD Prediction System
 
 A machine learning-based web application for early detection and prediction of Chronic Kidney Disease (CKD) using clinical data. This project combines powerful data science techniques with a user-friendly interface to support healthcare professionals in real-time decision-making.
